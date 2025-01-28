@@ -1,0 +1,23 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  apiforrecipes:
+    build:
+      context: "/Users/ilakonev/RiderProjects/ApiForRecipes"
+      dockerfile: "ApiForRecipes/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ApiForRecipes.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net8.0/ApiForRecipes.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "apiforrecipes:dev"
+    ports: []
+    volumes:
+    - "/Users/ilakonev/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/ilakonev/RiderProjects/ApiForRecipes/ApiForRecipes:/app:rw"
+    - "/Users/ilakonev/RiderProjects/ApiForRecipes:/src:rw"
+    working_dir: "/app"

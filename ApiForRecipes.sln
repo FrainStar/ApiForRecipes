@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiForRecipes", "ApiForRecipes\ApiForRecipes.csproj", "{194BBFC6-D9B4-439C-BA80-BA6EC7691FCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE7569DB-8057-4054-A3B1-11B89EB7EDC2}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{194BBFC6-D9B4-439C-BA80-BA6EC7691FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194BBFC6-D9B4-439C-BA80-BA6EC7691FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194BBFC6-D9B4-439C-BA80-BA6EC7691FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194BBFC6-D9B4-439C-BA80-BA6EC7691FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
